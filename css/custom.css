@@ -50,7 +50,7 @@ nav ul li {
 
 }
 
-a.team-title-link:hover{
+.team-title-link:hover{
   text-decoration: none;
   color: #00D0FF;
 }
@@ -121,5 +121,130 @@ a.team-title-link:hover{
 }
 
 .parallax-pimg1 h5{
+  margin-bottom:.3rem;
+}
+
+.parallax-pimg2{
+  background-image: url(../images/tech1.jpg);
+  min-height:150px;
+  min-width:300px;
+  position:relative;
+  opacity:0.50;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align:center;
+  margin-bottom:.3rem;
+}
+
+.parallax-pimg2 .fa {
+  margin-bottom:.3rem;
+  font-size:25px;
+  color #beebff;
+  padding: 5rem 0 1rem;
+}
+
+.parallax-pimg2 h5{
+  margin-bottom:.3rem;
+}
+
+.parallax-pimg3{
+  background-image: url(../images/tech2.jpg);
+  min-height:150px;
+  min-width:300px;
+  position:relative;
+  opacity:0.50;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align:center;
+  margin-bottom:.3rem;
+}
+
+.parallax-pimg3 .fa {
+  margin-bottom:.3rem;
+  font-size:25px;
+  color #beebff;
+  padding: 5rem 0 1rem;
+}
+
+.parallax-pimg3 h5{
+  margin-bottom:.3rem;
+}
+
+.parallax-pimg4{
+  background-image: url(../images/tech3.jpg);
+  min-height:150px;
+  min-width:300px;
+  position:relative;
+  opacity:0.50;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align:center;
+  margin-bottom:.3rem;
+}
+
+.parallax-pimg4 .fa {
+  margin-bottom:.3rem;
+  font-size:25px;
+  color #beebff;
+  padding: 5rem 0 1rem;
+}
+
+.parallax-pimg4 h5{
+  margin-bottom:.3rem;
+}
+
+.parallax-pimg5{
+  background-image: url(../images/tech4.jpg);
+  min-height:150px;
+  min-width:300px;
+  position:relative;
+  opacity:0.50;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align:center;
+  margin-bottom:.3rem;
+}
+
+.parallax-pimg5 .fa {
+  margin-bottom:.3rem;
+  font-size:25px;
+  color #beebff;
+  padding: 5rem 0 1rem;
+}
+
+.parallax-pimg5 h5{
+  margin-bottom:.3rem;
+}
+
+.parallax-pimg6{
+  background-image: url(../images/tech5.jpg);
+  min-height:150px;
+  min-width:300px;
+  position:relative;
+  opacity:0.50;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align:center;
+  margin-bottom:.3rem;
+}
+
+.parallax-pimg6 .fa {
+  margin-bottom:.3rem;
+  font-size:25px;
+  color #beebff;
+  padding: 5rem 0 1rem;
+}
+
+.parallax-pimg6 h5{
   margin-bottom:.3rem;
 }
