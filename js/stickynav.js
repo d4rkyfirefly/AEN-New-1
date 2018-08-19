@@ -3,13 +3,13 @@
 
 window.onscroll = function() {myFunction()};
 
-var jobs = document.getElementById("jobs");
-var sticky = jobs.offsetTop;
+var NavMenu = document.getElementById("NavMenu");
+var sticky = NavMenu.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    jobs.classList.add("sticky")
+    NavMenu.classList.add("sticky")
   } else {
-    jobs.classList.remove("sticky");
+    NavMenu.classList.remove("sticky");
   }
 }

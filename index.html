@@ -1,25 +1,16 @@
 <!-- Copyright 2018 AEN / Yan & Co. -->
 <!DOCTYPE html>
-<html itemscope="itemscope" itemtype="http://schema.org/Article" xmlns="https://www.w3.org/1999/xhtml" lang="en" prefix="og: http://ogp.me/ns#">
 
+<html itemscope="itemscope" itemtype="http://schema.org/Article" xmlns="https://www.w3.org/1999/xhtml" lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
 
-    <!-- Emulate IE 7
-––––––––––––––––––––––––––––––––––––––––––––––––––->
-  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
-
-    <!-- Display as IE 8 with or without a DOCTYPE
+    <!-- Emulate IE 7, Display as IE 8 with or Without a DOCTYPE, Quirks Mode IE5, Quirks Mode Edge, chrome
 ––––––––––––––––––––––––––––––––––––––––––––––––––-->
-  <meta http-equiv="X-UA-Compatible" content="IE=8">
-
-    <!-- Quirks Mode (IE 5)
-––––––––––––––––––––––––––––––––––––––––––––––––––-->
-  <meta http-equiv="X-UA-Compatible" content="IE=5">
-
-    <!-- Quirks Mode (Edge, chrome)
-––––––––––––––––––––––––––––––––––––––––––––––––––-->
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+   <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+   <meta http-equiv="X-UA-Compatible" content="IE=8">
+   <meta http-equiv="X-UA-Compatible" content="IE=5">
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
 
     <!-- Basic Page Needs
 ––––––––––––––––––––––––––––––––––––––––––––––––––-->
@@ -28,10 +19,13 @@
     <link rel="canonical" href="https://www.aen-aye.es/"/>
     <meta name="description" content="Energias ETC."/>
     <meta name="keywords" content="AEN, Energia y Agua, AEN-EYA, Renovables, Desaladoras, Solar, Eolica"/>
-    <meta name="author" content="Olivares"/>
+    <meta name="author" content="Yan & Co"/>
+    <meta name="owner" content="Olivares Dias Jose Carlos" />
     <meta name="format-detection" content="telephone=no"/>
     <meta name="google-site-verification" content="..."/>
     <meta name="robots" content="index, follow"/>
+    <meta name="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="es" />
     <link rel="alternate" hreflang="es-ES" href="https://www.aen-aye.es/">
     <link rel="alternate" hreflang="en-US" href="https://www.aen-aye.es/">
     <link rel='shortlink' href='https://www.aen-aye.es/'>
@@ -42,9 +36,12 @@
 
     <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/hint.css">
+    <link rel="stylesheet" href="css/override.css">
+    <link rel="stylesheet" href="css/parallax.css">
 
     <!-- Mobile Specific Metas
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -52,7 +49,9 @@
 
     <!-- Favicon
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="/images/favicon.ico"/>
 
     <!-- Open Graph Meta Data
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -73,7 +72,7 @@
 
     <!-- Twitter Cards Data
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@aeneya">
     <meta name="twitter:creator" content="@aeneya">
     <meta name="twitter:title" content="Aen Energya y Agua">
@@ -93,8 +92,8 @@
                 <h3>Energia y Agua</h3>
                 <p>Empresa especializada en nuevas tecnologias.</p>
                 <p><br>I+D+i.</p>
-                <a class="button button-primary" href="#jobs">Menu</a>&nbsp;
-                <a class="button" href="#faqs">Informacion</a>
+                <a class="button button-primary" href="#NavMenu"><span class="hint--info" aria-label="Navegacion">Menu</span></a>&nbsp;
+                <a class="button" href="#faqs"><span class="hint--info" aria-label="Info de la empresa">Preguntas?</span></a>
             </div>
             <div class="five columns">
                 <img src="images/aenlogo.png" alt="Cover Image" width="100%">
@@ -110,7 +109,7 @@
 
     <!-- Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div id="jobs" class="navbar-div">
+<div id="NavMenu" class="navbar-div">
     <nav class="nav">
         <div class="container">
             <ul >
@@ -163,20 +162,20 @@
 <section class="parallax-pimg1">
   <div class="Container">
     <div class="row">
-      <div class="one-third column" style="color:#FFF;">
-        <i class="fa fa-calendar"></i>
-        <h5>Plan Your Life</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+      <div class="one-third column" style="color:#010101;">
+        <i class="fa fa-cogs"></i>
+        <h5><span class="bl">Ingenieria</span></h5>
+        <p class="blue"><span class="bl">Reducción notable de costes directos</span></p>
       </div>
-      <div class="one-third column" style="color:#FFF;">
-        <i class="fa fa-cloud"></i>
-        <h5>Upload to Cloud</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
-      </div>
-      <div class="one-third column" style="color:#FFF;">
+      <div class="one-third column" style="color:#010101;">
         <i class="fa fa-users"></i>
-        <h5>Manage User</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+        <h5><span class="bl">Social</span></h5>
+        <p class="blue"><span class="bl">Creación de puestos de trabajo y empresas</span></p>
+      </div>
+      <div class="one-third column" style="color:#010101;">
+        <i class="fa fa-signature"></i>
+        <h5><span class="bl">Innovacion</span></h5>
+        <p class="blue"><span class="bl">Impacto ambiental practicamente nulo</span></p>
       </div>
     </div>
   </div>
@@ -190,8 +189,8 @@
         <!-- Title - Inicio
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="inicio" class="topper"></div>
-        <div class="row team-title">
-            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="team-title-link">Inicio</a></strong></h4>
+        <div class="row web-menu-title">
+            <h4><strong><a href="" target="_blank" rel="noreferrer" class="web-menu-title-link"></a></strong></h4>
         </div>
 
         <!-- Parallax-pimg2 Section
@@ -199,10 +198,11 @@
         <section class="parallax-pimg2">
           <div class="Container">
             <div class="row">
-              <div class="row team-title" style="color:#FFF;">
-                <i class="fa fa-calendar"></i>
-                <h5>Plan Your Life</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+              <div class="row web-menu-title" style="color:#fdfdff;">
+                <div class="text-block">
+                <h5>I N I C I O</h5>
+                <p>Bienvenidos a nuestra pagina Web!</p>
+                </div>
               </div>
             </div>
           </div>
@@ -214,8 +214,8 @@
         <!-- Title - Empresa
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="empresa" class="topper"></div>
-        <div class="row team-title">
-            <h4><strong><a href="http://" target="_blank" rel="noreferrer" class="team-title-link">Nuestra Empresa</a></strong></h4>
+        <div class="row web-menu-title">
+            <h4><strong><a href="http://" target="_blank" rel="noreferrer" class="web-menu-title-link"></a></strong></h4>
         </div>
 
         <!-- Parallax-pimg3 Section
@@ -223,10 +223,10 @@
         <section class="parallax-pimg3">
           <div class="Container">
             <div class="row">
-              <div class="row team-title" style="color:#FFF;">
-                <i class="fa fa-calendar"></i>
-                <h5>Plan Your Life</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+              <div class="row web-menu-title" style="color:#FFF;">
+                <div class="text-block">
+                <h5>E M P R E S A</h5>
+                <p>nuestra breve informacion</p>
               </div>
             </div>
           </div>
@@ -239,8 +239,8 @@
         <!-- Title - Ofrecemos
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="ofrecemos" class="topper"></div>
-        <div class="row team-title">
-            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="team-title-link">Que Ofrecemos?</a></strong></h4>
+        <div class="row web-menu-title">
+            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="web-menu-title-link"></a></strong></h4>
         </div>
 
         <!-- Parallax-pimg4 Section
@@ -248,10 +248,10 @@
         <section class="parallax-pimg4">
           <div class="Container">
             <div class="row">
-              <div class="row team-title" style="color:#FFF;">
-                <i class="fa fa-calendar"></i>
-                <h5>Plan Your Life</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+              <div class="row web-menu-title" style="color:#FFF;">
+                <div class="text-block">
+                <h5>O F R E C E M O S</h5>
+                <p>lo que las demas no ofrecen</p>
               </div>
             </div>
           </div>
@@ -264,8 +264,8 @@
         <!-- Title - Experiencia
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="experiencia" class="topper"></div>
-        <div class="row team-title">
-            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="team-title-link">Nuestra Gran Experiencia nos Avala</a></strong></h4>
+        <div class="row web-menu-title">
+            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="web-menu-title-link"></a></strong></h4>
         </div>
 
         <!-- Parallax-pimg5 Section
@@ -273,10 +273,10 @@
         <section class="parallax-pimg5">
           <div class="Container">
             <div class="row">
-              <div class="row team-title" style="color:#FFF;">
-                <i class="fa fa-calendar"></i>
-                <h5>Plan Your Life</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+              <div class="row web-menu-title" style="color:#FFF;">
+                <div class="text-block">
+                <h5>E X P E R I E N C I A</h5>
+                <p>que nos diferencia del resto</p>
               </div>
             </div>
           </div>
@@ -289,8 +289,8 @@
         <!-- Title - Proyectos
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="proyectos" class="topper"></div>
-        <div class="row team-title">
-            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="team-title-link">Proyectos Realizados</a></strong></h4>
+        <div class="row web-menu-title">
+            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="web-menu-title-link"></a></strong></h4>
         </div>
 
         <!-- Parallax-pimg2 Section
@@ -298,10 +298,10 @@
         <section class="parallax-pimg6">
           <div class="Container">
             <div class="row">
-              <div class="row team-title" style="color:#FFF;">
-                <i class="fa fa-calendar"></i>
-                <h5>Plan Your Life</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+              <div class="row web-menu-title" style="color:#FFF;">
+                <div class="text-block">
+                <h5>P R O Y E C T O S</h5>
+                <p>realizados desde el inicio</p>
               </div>
             </div>
           </div>
@@ -314,19 +314,19 @@
         <!-- Title - Certificados
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="certificados" class="topper"></div>
-        <div class="row team-title">
-            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="team-title-link">Nuestros Certificados y Patentes</a></strong></h4>
+        <div class="row web-menu-title">
+            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="web-menu-title-link"></a></strong></h4>
         </div>
 
         <!-- Parallax-pimg2 Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <section class="parallax-pimg2">
+        <section class="parallax-pimg7">
           <div class="Container">
             <div class="row">
-              <div class="row team-title" style="color:#FFF;">
-                <i class="fa fa-calendar"></i>
-                <h5>Plan Your Life</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+              <div class="row web-menu-title" style="color:#FFF;">
+                <div class="text-block">
+                <h5>C E R T I F I C A D O S</h5>
+                <p>que disponemos actualmente</p>
               </div>
             </div>
           </div>
@@ -339,19 +339,19 @@
         <!-- Title - Garantias
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="garantias" class="topper"></div>
-        <div class="row team-title">
-            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="team-title-link">Garantizamos cada Proyecto</a></strong></h4>
+        <div class="row web-menu-title">
+            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="web-menu-title-link"></a></strong></h4>
         </div>
 
         <!-- Parallax-pimg2 Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <section class="parallax-pimg2">
+        <section class="parallax-pimg8">
           <div class="Container">
             <div class="row">
-              <div class="row team-title" style="color:#FFF;">
-                <i class="fa fa-calendar"></i>
-                <h5>Plan Your Life</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+              <div class="row web-menu-title" style="color:#FFF;">
+                <div class="text-block">
+                <h5>G A R A N T I A S</h5>
+                <p>que nos avalan en la actualidad</p>
               </div>
             </div>
           </div>
@@ -364,19 +364,19 @@
         <!-- Title - Catalogo
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="catalogo" class="topper"></div>
-        <div class="row team-title">
-            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="team-title-link">Catalogo</a></strong></h4>
+        <div class="row web-menu-title">
+            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="web-menu-title-link"></a></strong></h4>
         </div>
 
         <!-- Parallax-pimg2 Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <section class="parallax-pimg2">
+        <section class="parallax-pimg9">
           <div class="Container">
             <div class="row">
-              <div class="row team-title" style="color:#FFF;">
-                <i class="fa fa-calendar"></i>
-                <h5>Plan Your Life</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+              <div class="row web-menu-title" style="color:#FFF;">
+                <div class="text-block">
+                <h5>C A T A L O G O</h5>
+                <p>descargalo a traves de</p>
               </div>
             </div>
           </div>
@@ -389,19 +389,19 @@
         <!-- Title - Progreso
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="progreso" class="topper"></div>
-        <div class="row team-title">
-            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="team-title-link">Nuestros Progresos</a></strong></h4>
+        <div class="row web-menu-title">
+            <h4><strong><a href="https://" target="_blank" rel="noreferrer" class="web-menu-title-link"></a></strong></h4>
         </div>
 
         <!-- Parallax-pimg2 Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <section class="parallax-pimg2">
+        <section class="parallax-pimg10">
           <div class="Container">
             <div class="row">
-              <div class="row team-title" style="color:#FFF;">
-                <i class="fa fa-calendar"></i>
-                <h5>Plan Your Life</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+              <div class="row web-menu-title" style="color:#FFF;">
+                <div class="text-block">
+                <h5>P R O G R E S O S</h5>
+                <p>realizados hasta ahora</p>
               </div>
             </div>
           </div>
@@ -414,19 +414,19 @@
         <!-- Title - Contacto
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="contacto" class="topper"></div>
-        <div class="row team-title">
-            <h4><strong><a href="http://" target="_blank" rel="noreferrer" class="team-title-link">Contacta con Nosotros</a></strong></h4>
+        <div class="row web-menu-title">
+            <h4><strong><a href="http://" target="_blank" rel="noreferrer" class="web-menu-title-link"></a></strong></h4>
         </div>
 
         <!-- Parallax-pimg2 Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <section class="parallax-pimg2">
+        <section class="parallax-pimg11">
           <div class="Container">
             <div class="row">
-              <div class="row team-title" style="color:#FFF;">
-                <i class="fa fa-calendar"></i>
-                <h5>Plan Your Life</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. evenitm et?</p>
+              <div class="row web-menu-title" style="color:#FFF;">
+                <div class="text-block">
+                <h5>C O N T A C T A</h5>
+                <p>con nosotros a traves de</p>
               </div>
             </div>
           </div>
@@ -439,8 +439,8 @@
         <!-- FAQs Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="faqs" class="faq-topper"></div>
-        <div class="row team-title">
-            <h4><strong>FAQs</strong></h4></td>
+        <div class="row web-menu-title">
+            <h4><strong><span class="hint--info" aria-label="Preguntas Frecuentes.">FAQs</span></strong></h4></td>
         </div>
         <br>
 
@@ -452,7 +452,7 @@
         <p>
             <h5>2. TextextextTextextextTextextext?</h5></p>
         <p>TextextextTextextextTextextext <i>TextextextTextextextTextextext</i>. TextextextTextextextTextextext</p>
-        <p><a class="button" href="https://github.com/F1Jobs/client" target="_blank" rel="noreferrer">TextextextTextextextTextextext</a>&nbsp;&nbsp;<a class="button" href="https://" target="_blank" rel="noreferrer">TextextextTextextextTextextext</a></p>
+        <p><a class="button" href="" target="_blank" rel="noreferrer">TextextextTextextextTextextext</a>&nbsp;&nbsp;<a class="button" href="https://" target="_blank" rel="noreferrer">TextextextTextextextTextextext</a></p>
         <br>
 
         <p>
@@ -484,21 +484,18 @@
     <div class="row">
       <div class="one-third column" style="color:#beebff;">
         <i class="fa fa-calendar"></i>
-        <h5>Plan Your Life</h5>
-        <p>Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. evenitm et?</p>
+        <h5>Proyectos</h5>
+        <p>Seguimiento, Gestión y Explotación de nuestros proyectos</p>
       </div>
       <div class="one-third column" style="color:#beebff;">
         <i class="fa fa-cloud"></i>
-        <h5>Upload to Cloud</h5>
-        <p>Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. evenitm et?</p>
+        <h5>Costos</h5>
+        <p>Reducción notable de costes directos, creación de puestos de trabajo y empresas.</p>
       </div>
       <div class="one-third column" style="color:#beebff;">
         <i class="fa fa-users"></i>
-        <h5>Manage User</h5>
-        <p>Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. evenitm et?</p>
+        <h5>Energias</h5>
+        <p>Abaratamiento notable de la energía y el agua, aprovechamiento de recursos locales.</p>
       </div>
     </div>
   </div>
