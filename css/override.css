@@ -1,5 +1,5 @@
 /* Override Elements */
-/* Text Highlight in Red. Blue, Yellow, all in soft colors */
+/* Text Highlight in Red, Blue, Yellow, Green, all in soft colors */
 
 span.re {
 	background: #ffb7b7;
@@ -11,6 +11,10 @@ span.bl {
 }
 span.ye {
 	background: #fff2a8;
+	padding: 3px;
+}
+span.ge {
+	background: #84EF8F;
 	padding: 3px;
 }
 
@@ -34,4 +38,10 @@ p {
 	}
 	p.yellow::-moz-selection {
 		background: #fff2a8;
+	}
+	p.green::selection {
+		background: #84EF8F;
+	}
+	p.green::-moz-selection {
+		background: #84EF8F;
 	}
