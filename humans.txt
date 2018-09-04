@@ -2,13 +2,21 @@
 
                             /* TEAM */
 
-                            Your title: Your name.
+                            Your title: Yan Antropov.
 
-                            Site: email, link to a contact form, etc.
+                            Site: jan(-)lux(@)hotmail(.)com.
 
-                            Twitter: your Twitter username.
+                            Twitter: yanantropov.
 
-                            Location: City, Country.
+                            Location: Madrid - ES.
+
+                            Your title: Jose Carlos Dias Olivares.
+
+                            Site: aen(@)aensl(.)com.
+
+                            Twitter: X.
+
+                            Location: Madrid - ES.
 
                  
                         [...]
@@ -16,7 +24,7 @@
 
 			    /* THANKS */
 
-			    Name: name or url
+			    Name: World
 
                  
                         [...]
@@ -24,13 +32,13 @@
 
                             /* SITE */
 
-                            Last update: YYYY/MM/DD 
+                            Last update: 04.09.2018 
 
-                            Standards: HTML5, CSS3,..
+                            Standards: HTML5, CSS3, JavaScript
 
-                            Components: Modernizr, jQuery, etc.
+                            Components: Skelleton based HTML-CSS-JavaScript
 
-                            Software: Software used for the development
+                            Software: Atom.io
    
                         
 
