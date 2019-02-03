@@ -1,5 +1,5 @@
 // A simple script to keep the navbar pinned to
-// the top of the page once it is scrolled past.
+// the top of the page once it is scrolled past...
 
 window.onscroll = function() {myFunction()};
 
